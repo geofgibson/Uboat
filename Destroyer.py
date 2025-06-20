@@ -218,7 +218,7 @@ class Destroyer:
                             dieRoll = random.randint(1,6)
                             match dieRoll:
                                 case 5:
-                                    de.sunk = True
+                                    self.sunk = True
                                 case 2:
                                     ub.sunk = True
                                 case _:
